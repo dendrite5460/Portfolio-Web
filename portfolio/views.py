@@ -201,7 +201,7 @@ def dash(request):
 				expire=get_expiry_date(usethis2.year,usethis2.month)
 				exp=list(expire)
 				maxi=0
-				in1=0
+				in1=-1
 				ct=0
 				for i in exp:
 				    if(i.day>maxi):
@@ -357,7 +357,7 @@ def dash(request):
 				expire=get_expiry_date(usethis2.year,usethis2.month)
 				exp=list(expire)
 				maxi=0
-				in1=0
+				in1=-1
 				ct=0
 				for i in exp:
 				    if(i.day>maxi):
